@@ -76,7 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     cep : cep
                 }, 
                 function(dados){
-                  //console.log('dados: ',dados);
+                  console.log('dados: ',dados);
                   //console.log(dados.msg);die();
                   if(dados.msg == 'viacep'){
                     alert('Dados vindos da ViaCep. Inserido no banco local com Sucesso!');

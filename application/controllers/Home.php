@@ -55,7 +55,7 @@ class Home extends CI_Controller {
             $dados['bairro'] = $decode->bairro;
             $dados['localidade'] = $decode->localidade;
             $dados['uf'] = $decode->uf;
-            $dados['unidade'] = $decode->unidade;
+            //$dados['unidade'] = $decode->unidade;
             $dados['ibge'] = $decode->ibge;
             $dados['gia'] = $decode->gia;
             $dados['msg'] = "viacep";
